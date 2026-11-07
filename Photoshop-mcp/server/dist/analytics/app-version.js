@@ -1,0 +1,19 @@
+import { readFileSync } from 'node:fs';
+import { dirname, join } from 'node:path';
+import { fileURLToPath } from 'node:url';
+let cachedVersion;
+/** Package version from the repo root package.json — attached to every server-side event. */
+export function getAppVersion() {
+    if (cachedVersion)
+        return cachedVersion;
+    try {
+        const pkgPath = join(dirname(fileURLToPath(import.meta.url)), '..', '..', 'package.json');
+        const pkg = JSON.parse(readFileSync(pkgPath, 'utf8'));
+        cachedVersion = pkg.version ?? '0.0.0';
+    }
+    catch {
+        cachedVersion = '0.0.0';
+    }
+    return cachedVersion;
+}
+//# sourceMappingURL=app-version.js.map

@@ -1,0 +1,5 @@
+import type { ToolDefinition } from '../../core/tool-registry.js';
+import type { PhotoshopConnection } from '../../platform/connection.js';
+export declare function createRecipeTools(connection: PhotoshopConnection): ToolDefinition[];
+export declare const PHOTOSHOP_RECIPE_TOOL_NAMES: readonly ["photoshop_recipe_remove_background", "photoshop_recipe_enhance_portrait", "photoshop_recipe_prepare_for_web", "photoshop_recipe_export_social_variants", "photoshop_recipe_apply_color_grade", "photoshop_recipe_frequency_separation", "photoshop_recipe_batch_mockup_replace", "photoshop_recipe_organize_layers", "photoshop_recipe_gradient_fade", "photoshop_recipe_sky_blend", "photoshop_recipe_dodge_burn", "photoshop_recipe_remove_distraction", "photoshop_recipe_split_carousel", "photoshop_recipe_batch_watermark", "photoshop_recipe_passport_photo", "photoshop_recipe_csv_to_cards", "photoshop_recipe_sticker_outline"];
+//# sourceMappingURL=index.d.ts.map

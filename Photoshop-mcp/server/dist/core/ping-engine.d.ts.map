@@ -1,0 +1,1 @@
+{"version":3,"file":"ping-engine.d.ts","sourceRoot":"","sources":["../../src/core/ping-engine.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,cAAc,EAAE,MAAM,oCAAoC,CAAC;AAQzE,OAAO,EAAE,mBAAmB,EAAE,MAAM,2BAA2B,CAAC;AAGhE;;;;GAIG;AACH,eAAO,MAAM,iBAAiB,iCAAiC,CAAC;AAKhE,wBAAsB,oBAAoB,CACxC,UAAU,EAAE,mBAAmB,GAC9B,OAAO,CAAC,cAAc,CAAC,CAczB"}

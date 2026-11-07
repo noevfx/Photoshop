@@ -1,0 +1,1 @@
+{"version":3,"file":"noop.js","sourceRoot":"","sources":["../../src/analytics/noop.ts"],"names":[],"mappings":"AAEA,MAAM,OAAO,qBAAqB;IAChC,OAAO,CAAC,MAAsB;QAC5B,sBAAsB;IACxB,CAAC;IAED,QAAQ,CAAC,WAAqC;QAC5C,sBAAsB;IACxB,CAAC;IAED,aAAa,CAAC,WAAoC;QAChD,sBAAsB;IACxB,CAAC;IAED,KAAK,CAAC,KAAK;QACT,sBAAsB;IACxB,CAAC;IAED,KAAK,CAAC,QAAQ;QACZ,sBAAsB;IACxB,CAAC;CACF"}
