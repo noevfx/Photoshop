@@ -3,3 +3,9 @@ Thumbs.db
 .DS_Store
 *.log
 _backups/
+
+# Instruções de agentes ficam só no computador
+AGENTS.md
+CLAUDE.md
+.clinerules
+.agents/
